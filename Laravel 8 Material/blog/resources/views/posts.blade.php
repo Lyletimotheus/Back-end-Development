@@ -9,7 +9,7 @@
 </head>
 <body>
     <article>
-        <h1><a href="/post">Post 1</a></h1>
+        <h1><a href="/posts/my-first-post">Post 1</a></h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque pariatur doloremque assumenda quae eum, perferendis illum natus? Laudantium sunt ullam vel quo aliquid perferendis inventore, fuga nostrum vero quis?
         Tempore quam repellendus nobis, accusamus tempora ex libero pariatur repellat officiis facere velit qui excepturi provident nemo voluptate! Perferendis, culpa! Commodi, ipsum! Atque perspiciatis pariatur modi quia sint alias ab?
         Ducimus voluptas libero, mollitia nisi molestias quod et cumque consequuntur. Fugiat tenetur illum, voluptas provident eos soluta illo eum, fugit voluptatem accusamus excepturi assumenda quod ipsa beatae placeat. Alias, quibusdam.
@@ -18,7 +18,7 @@
     </article>
 
     <article>
-        <h1><a href="/post">Post 2</a></h1>
+        <h1><a href="/posts/my-second-post">Post 2</a></h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque pariatur doloremque assumenda quae eum, perferendis illum natus? Laudantium sunt ullam vel quo aliquid perferendis inventore, fuga nostrum vero quis?
         Tempore quam repellendus nobis, accusamus tempora ex libero pariatur repellat officiis facere velit qui excepturi provident nemo voluptate! Perferendis, culpa! Commodi, ipsum! Atque perspiciatis pariatur modi quia sint alias ab?
         Ducimus voluptas libero, mollitia nisi molestias quod et cumque consequuntur. Fugiat tenetur illum, voluptas provident eos soluta illo eum, fugit voluptatem accusamus excepturi assumenda quod ipsa beatae placeat. Alias, quibusdam.
@@ -27,7 +27,7 @@
     </article>
 
     <article>
-        <h1><a href="/post">Post 3</a></h1>
+        <h1><a href="/posts/my-third-post">Post 3</a></h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque pariatur doloremque assumenda quae eum, perferendis illum natus? Laudantium sunt ullam vel quo aliquid perferendis inventore, fuga nostrum vero quis?
         Tempore quam repellendus nobis, accusamus tempora ex libero pariatur repellat officiis facere velit qui excepturi provident nemo voluptate! Perferendis, culpa! Commodi, ipsum! Atque perspiciatis pariatur modi quia sint alias ab?
         Ducimus voluptas libero, mollitia nisi molestias quod et cumque consequuntur. Fugiat tenetur illum, voluptas provident eos soluta illo eum, fugit voluptatem accusamus excepturi assumenda quod ipsa beatae placeat. Alias, quibusdam.

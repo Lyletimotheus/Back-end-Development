@@ -9,15 +9,8 @@
 </head>
 <body>
     <article>
-        <h1><a href="/post">Post 1</a></h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione eaque pariatur doloremque assumenda quae eum, perferendis illum natus? Laudantium sunt ullam vel quo aliquid perferendis inventore, fuga nostrum vero quis?
-        Tempore quam repellendus nobis, accusamus tempora ex libero pariatur repellat officiis facere velit qui excepturi provident nemo voluptate! Perferendis, culpa! Commodi, ipsum! Atque perspiciatis pariatur modi quia sint alias ab?
-        Ducimus voluptas libero, mollitia nisi molestias quod et cumque consequuntur. Fugiat tenetur illum, voluptas provident eos soluta illo eum, fugit voluptatem accusamus excepturi assumenda quod ipsa beatae placeat. Alias, quibusdam.
-        Doloribus dolor, delectus quis pariatur quod est eos, ab voluptatibus quam porro nobis quas non. Eligendi aliquam quasi voluptas, qui, praesentium soluta quam tempore, debitis veritatis laborum assumenda explicabo iste!
-        Necessitatibus enim quas deleniti. Expedita eum placeat, odit error qui dolor consectetur nisi corrupti vitae ullam? Quae corporis suscipit minima! Eos ipsum necessitatibus obcaecati nisi. Autem explicabo facere vel aspernatur!</p>
-    </article>
-
-    <a href="/">Home</a>
-    
+        <?= $post ?>
+    </article> 
+    <a href="/">Go Home</a>   
 </body>
 </html>

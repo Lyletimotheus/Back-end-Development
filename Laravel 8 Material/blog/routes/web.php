@@ -20,6 +20,22 @@ Route::get('/', function () {
     // return ['foo' => 'bar'];
 });
 
-Route::get('post', function() {
-    return view ('post');
-});
+// Implementing a wildcard to differentiate between various posts
+Route::get('posts/{post}', function($slug) {
+    $path = __DIR__ . "/../resources/posts/{$slug}.html";
+
+// Before we fetch that post from that path, check to see if the path exists
+    if(! file_exists($path)) {
+        // Return the user to the home page 
+        return redirect('/');
+
+        // Throw a custom 404 error page
+        // abort(404);
+    }
+
+    $post = file_get_contents($path);
+    return view ('post', [
+        'post' => $post
+    ]);
+})->where('post', '[A-z_\-]+');
+
