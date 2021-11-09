@@ -21,4 +21,28 @@
    for($i=0; $i<5; $i++) {
     echo nl2br("$i\r\n");
    } 
+
+
+ 
+  
+
+   function getUser() {
+    if(isset($users)) {
+        return $users["name"];
+       }else{
+        return "Nothing";
+       }
+   };
+
+   $users = [
+    "name" => "John Doe",
+    "age" => "34",
+    "school" => "Selborne College"
+];
+
+   $userOutput = getUser();
+   echo $userOutput;
+
+   phpinfo();
+   
 ?>
