@@ -1,6 +1,6 @@
 # LAMP Stack Refresher
 
-Timestamp: 4:36:10
+Timestamp: 5:32:40
 
 ## General Information
 - http://www.google.com/page1.html
@@ -9,6 +9,9 @@ How to understand the HTTP/HTTPS:
 1. How (protocol)
 2. Where (host)
 3. What (document)
+
+## General Comments
+- When deciding when to use client vs server side validation, if it is going to be stored in a database, consider server side validation. Bear in mind client-side validation is faster then server-side validation. 
 
 - HTML special characters (Just search Google for this characters)
 
@@ -77,3 +80,11 @@ if(function_exists("array_combine)) {
 }
 
 The else part we can define the function and usually the first part of the function is left blank.
+
+8. PHP Semantics
+- Try to write code according to the MVC Model
+- MVC:
+    - Model: Handles data (Incoming data)
+    - View: Produce Output
+    - Controller: Orchestration / Routing 
+    - Only your HTML will contain echo tag for outputting data
