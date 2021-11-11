@@ -12,3 +12,10 @@
 - https: runs on port 443
 - localhost: runs on port 3000 (It can run on multiple ports, pending what service you are planning on running)
 
+## Request Methods
+- GET: Visiting web pages
+- POST: Interact / transfer of data taking place
+- PATCH
+- PUT
+- DELETE
+
