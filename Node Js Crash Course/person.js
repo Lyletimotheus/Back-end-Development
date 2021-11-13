@@ -9,7 +9,5 @@ class Person {
     }
 }
 
-console.log(__dirname, __filename);
-
 // Use this object in another file
 module.exports = Person;

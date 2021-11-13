@@ -1,4 +1,5 @@
 # Node JS Crash Course
+Timestamp: 00:24:45
 
 ## What is Node.JS
 - JavaScript Runtime (not a language or framework)
