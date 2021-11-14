@@ -12,3 +12,8 @@ clearInterval();
 console.log();
 // Node uses a global object
 globalThis.setInterval(); // This is the same as the above function.
+
+// ############################
+// #### Debugging tools #######
+// ############################
+// 1. jshint <module_name>
