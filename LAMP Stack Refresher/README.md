@@ -1,6 +1,6 @@
 # LAMP Stack Refresher
 
-Timestamp: 5:32:40
+Timestamp: 5:57:00
 
 ## General Information
 - http://www.google.com/page1.html
@@ -88,3 +88,20 @@ The else part we can define the function and usually the first part of the funct
     - View: Produce Output
     - Controller: Orchestration / Routing 
     - Only your HTML will contain echo tag for outputting data
+
+9. Relational Databases
+<p>Relational databases model data by storing rows and columns in tables.</p>
+
+- Commands:
+    - Creating a database: create database (Database Name);
+    - Use a specific database: use (Database Name);
+    - Show the contents of a table: describe (Table Name);
+    - Inserting data into a table: INSERT INTO (Table Name) (Name of Columns) VALUES (Data to be added to Table);
+    - Delete a row in a table : DELETE FROM (Table Name) WHERE (Table Column = something);
+    - Shows the data in a table : SELECT * FROM (Table Name);
+    - Update table data according to a condition : UPDATE Users SET (Table Column = something) WHERE (Table column = something);
+    - Retrieving records : 
+        - SELECT * FROM (Table Name); OR
+        - SELECT * FROM (Table Name) WHERE (Table Column = something)
+    - Sorting the data from the database
+        - SELECT * FROM (Table Name) ORDER BY (Table Column)
