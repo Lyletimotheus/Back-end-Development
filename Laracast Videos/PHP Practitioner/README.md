@@ -1,6 +1,6 @@
 # Laracast : PHP Practitioner Series 
 
-# Timestamp: 
+# Timestamp: STEP 08
 
 1. php <name_of_php_file> : print the output to the console
 2. php -S localhost:<any_port_number> : start up a local server on our machine
