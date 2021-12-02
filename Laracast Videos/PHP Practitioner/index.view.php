@@ -72,9 +72,10 @@
                     <?php endif ?>
 
                     <?= $task->description ?>
+                    <!-- <?= $task->description(); ?> We would access protected properties through a public method as a standard practice  -->
                     <?php if($task->completed) : ?>
                         </strike>
-                        <?php endif ?>
+                    <?php endif ?>
                 </li>
             <?php endforeach ;?>
         </ul>

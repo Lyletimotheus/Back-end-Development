@@ -46,9 +46,9 @@
     // Todo, Comment, User
     class Task {
         // Look at your database to determine what you might need for a task
-        // We include two protected properties.
+        // We include two protected/public properties.
         // We would not add the completed property to the constructor as every task we add at the beginning will be incomplete (set to false).
-        public $description;
+        protected $description;
         public $completed = false;
 
         public function __construct($description)
@@ -62,8 +62,13 @@
         }
 
         public function isComplete() {
-            return $this-> completed;
+            return $this-> completed; // Here we will return true if the task is completed. The above public property completed needs to be set to true for this method to work.
         }
+
+        // Best practice when it comes to retrieving data, when the property is set to protected 
+        // public function description() {
+        //     return $this->description;
+        // }
     }
 
     // $task = new Task('Go to the store');
@@ -78,6 +83,8 @@
         new Task('Clean my bedroom')
     ];
 
+    
+    //Let us mark the first task in the array as complete
     $tasks[0]->complete();
     // dd($tasks);
     require 'index.view.php';
