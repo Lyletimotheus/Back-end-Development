@@ -19,3 +19,19 @@
         return $age >= 21 ? "You can enter the club." : "You are NOT old enough to enter the club.";
     }
 
+    // Function for connecting to the DB
+    function connectToDb() {
+        try {
+            return new PDO('mysql:host=127.0.0.1;dbname=mytodo', 'root', '');
+        
+        } catch (PDOException $e) {
+            die('Could not connect to the database');
+        }
+    }
+
+    // Function to fetch all the tasks from the DB
+    function fetchAllTasks($pdo) {
+        $statement = $pdo->prepare('SELECT * FROM todos');
+        $statement -> execute();
+        return $statement->fetchAll(PDO::FETCH_CLASS, 'Task');
+    }
