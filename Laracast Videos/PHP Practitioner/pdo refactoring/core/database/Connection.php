@@ -12,7 +12,7 @@ class Connection {
             );
         
         } catch (PDOException $e) {
-            die('Could not connect to the database');
+            die('Could not connect to the database:'.$e->getMessage());
         }
     }
 }
