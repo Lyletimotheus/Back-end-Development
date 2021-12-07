@@ -20,18 +20,18 @@
     }
 
     // Function for connecting to the DB
-    function connectToDb() {
-        try {
-            return new PDO('mysql:host=127.0.0.1;dbname=mytodo', 'root', '');
+    // function connectToDb() {
+    //     try {
+    //         return new PDO('mysql:host=127.0.0.1;dbname=mytodo', 'root', '');
         
-        } catch (PDOException $e) {
-            die('Could not connect to the database');
-        }
-    }
+    //     } catch (PDOException $e) {
+    //         die('Could not connect to the database');
+    //     }
+    // }
 
     // Function to fetch all the tasks from the DB
-    function fetchAllTasks($pdo) {
-        $statement = $pdo->prepare('SELECT * FROM todos');
-        $statement -> execute();
-        return $statement->fetchAll(PDO::FETCH_CLASS, 'Task');
-    }
+    // function fetchAllTasks($pdo) {
+    //     $statement = $pdo->prepare('SELECT * FROM todos');
+    //     $statement -> execute();
+    //     return $statement->fetchAll(PDO::FETCH_CLASS, 'Task');
+    // }
