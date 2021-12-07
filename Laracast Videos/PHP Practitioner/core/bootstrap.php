@@ -1,8 +1,12 @@
 <?php 
-
 // Factory File
+
+$app = [];
+
+$app['config'] = require './config/config.php';
+
 require 'core/Router.php';
-$config = require './config/config.php';
+require 'core/Request.php';
 require 'core/database/Connection.php';
 require 'core/database/QueryBuilder.php';
 
@@ -10,5 +14,6 @@ require 'core/database/QueryBuilder.php';
 // $pdo = Connection::make();
 
 // Instantiating the Querybuilder Class - And inlining the make method 
-return new QueryBuilder(Connection::make($config['database']));
+$app['database'] = new QueryBuilder(
+    Connection::make($app['config']['database']));
 
