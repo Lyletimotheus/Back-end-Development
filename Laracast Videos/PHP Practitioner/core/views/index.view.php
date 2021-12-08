@@ -9,8 +9,8 @@
 <body>
     <nav>
         <ul>
-            <li><a href="core\views\about.view.php">About Us</a></li>
-            <li><a href="core\views\contact.view.php">Contact Us</a></li>
+            <li><a href="/about.php">About Us</a></li>
+            <li><a href="core/views/contact.view.php">Contact Us</a></li>
         </ul>
     </nav>
     <h1>My Tasks</h1>

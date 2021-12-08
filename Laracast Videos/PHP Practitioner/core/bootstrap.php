@@ -15,5 +15,6 @@ require 'core/database/QueryBuilder.php';
 
 // Instantiating the Querybuilder Class - And inlining the make method 
 $app['database'] = new QueryBuilder(
-    Connection::make($app['config']['database']));
+    Connection::make($app['config']['database'])
+);
 
