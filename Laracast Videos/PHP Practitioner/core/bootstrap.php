@@ -5,10 +5,10 @@ $app = [];
 
 $app['config'] = require './config/config.php';
 
-require 'core/Router.php';
-require 'core/Request.php';
-require 'core/database/Connection.php';
-require 'core/database/QueryBuilder.php';
+// require 'core/Router.php';
+// require 'core/Request.php';
+// require 'core/database/Connection.php';
+// require 'core/database/QueryBuilder.php';
 
 // Referencing a static method to connect to the DB
 // $pdo = Connection::make();
